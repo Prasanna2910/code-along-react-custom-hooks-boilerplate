@@ -14,7 +14,7 @@ function App() {
     <div>
       <input
         type="text"
-        placeholder="Enter Something"
+        placeholder="Enter data"
         id="inputBox"
         onChange={(event) => setState(event.target.value)}
         onKeyDown={handleChange}
